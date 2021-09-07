@@ -19,12 +19,11 @@ const Header=()=>
 	const [itemCount, setItemCount] = useState(0);
 	  const [fullscreen, setFullscreen] = useState(true);
 
-	const [cart,setCart]=useState([
-			{
-				'carties':[]
-			}
-		
-		]);
+	const [cart,setCart]=useState({
+
+		'carties':[]
+	}
+	);
 
 
 	const[value1,setValue]=useState("");
@@ -42,9 +41,9 @@ const Header=()=>
 
 // })
 
-useEffect(()=>{
-	 localStorage.setItem('cart',JSON.stringify(cart));
-})
+// useEffect(()=>{
+// 	 localStorage.setItem('cart',JSON.stringify(cart));
+// })
  
 
   store.map((stores)=>{
@@ -80,20 +79,26 @@ store.map((stores)=>{
   
 
 
-  	const data = JSON.parse(localStorage.getItem('cart'))
+  	// const data = JSON.parse(localStorage.getItem('cart'))
 
-  	const[data1,setData]=useState(data);
-
+  	const[data1,setData]=useState({
+		  'carton': cart.carties
+	  });
+	// useEffect(()=>{
+	// 	localStorage.setItem('data',data1);
+	// })
+	 
+  console.log("the data1 ",data1);
 
   	const handlePersonCart=(personcart)=>{
-  		data1[0].carties.push(personcart);
+  		data1.carton.push(personcart);
   }
 
     const[total1,setTotal]=useState(0);
-	
+
 
   const handleIncrement=(id,price1)=>{
-  		data1[0].carties.map((prizing)=>{
+  		data1.carton.map((prizing)=>{
   			
   			if(id===prizing.id)
   			{
@@ -110,7 +115,7 @@ store.map((stores)=>{
 
 
   const handleDecrement=(id,price2)=>{
-  		data1[0].carties.map((prizing)=>{
+  		data1.carton.map((prizing)=>{
   			
   			if(id===prizing.id)
   			{
@@ -127,7 +132,7 @@ store.map((stores)=>{
 
   	var p=0;
 
-  	data1[0].carties.map((price)=>{
+  	data1.carton.map((price)=>{
 
   			return p+=price.price1;
   	})
@@ -191,8 +196,8 @@ store.map((stores)=>{
 				        <Modal.Body>
 				    
 				        <ul className="unoder">
-				      		{ (data1[0].carties.length===0) ? <h1 style={{color:'red',textAlign:'center',position:'relative'}}>your cart is empty</h1> :
-				      			data1[0].carties.map((items)=>{
+				      		{ (data1.carton.length===0) ? <h1 style={{color:'red',textAlign:'center',position:'relative'}}>your cart is empty</h1> :
+				      			data1.carton.map((items)=>{
 				      				
 				      				return(
 				      				<li key={items.id} className="listing">
