@@ -127,10 +127,10 @@ store.map((stores)=>{
 
   	var p=0;
 
-  	data1[0].carties.map((price)=>{
+  	// data1[0].carties.map((price)=>{
 
-  			return p+=price.price1;
-  	})
+  	// 		return p+=price.price1;
+  	// })
 
 	return(
 		<div>
