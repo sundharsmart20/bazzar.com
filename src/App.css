@@ -1,0 +1,142 @@
+
+
+/*.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}*/
+
+.App-header
+{
+  background-color: lightblue;
+  color: black;
+  display: flex;
+  justify-content: space-evenly;
+  position: -webkit-sticky;
+
+    overflow: hidden;
+
+  position: sticky;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0.4,2);
+  top: 0;
+  width: 100%;
+}
+.link
+{
+  display: flex;
+  
+  position: relative;
+  color: red;
+  padding: 40px;
+}
+
+.badge
+{
+  align-items: center;
+  display: flex;
+
+}
+.footer
+{
+  background-color: lightblue;
+  color: black;
+  display: flex;
+  height: auto;
+  justify-content: center;
+  
+  width: 100%;
+   bottom: 0;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0.4,2);
+}
+.list
+{
+  margin-top: 10px;
+  list-style-type:none;
+   border: 1px solid;
+  padding: 10px;
+   box-shadow: 0 4px 8px 0 rgba(0,0,0.4,2);
+    padding-bottom: -5%;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.unoder
+{
+  display: grid;
+  grid-gap: 50px 40px;
+   display: flex;
+   flex-wrap: wrap;
+  
+}
+.listing
+{
+ flex: 3 3 30%;
+  list-style-type: none;
+  padding: 10px;
+  border: 1px solid black;
+  
+}
+
+/*@media (max-width: 62.5rem)
+{
+  .listing{
+    display: block;
+    padding: 2rem 1rem;
+  }
+}*/
+
+.cards
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.heading
+{
+  text-align: center;
+  background-color: green;
+  color: white;
+
+}
+.imgs
+{
+  display: flex;
+  justify-content: center;
+  width: 30%;
+  height: auto;
+}
+/*.naving
+{
+  display: flex;
+  justify-content: space-around;
+}*/
+
+.topnav
+{
+  overflow: hidden;
+ 
+}
+
+.selecting
+{
+  display: flex;
+  justify-content: center;
+  padding:15px;
+  width: auto;
+  height: 25%;
+  flex-direction: column;
+}
+.btns
+{
+  display: flex;
+  justify-content: space-between;
+  padding-top:10px;
+  top: 0;
+}
