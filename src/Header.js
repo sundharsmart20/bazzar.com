@@ -136,6 +136,7 @@ store.map((stores)=>{
 		if(price.total===1)
 		{
 			p+=price.price;
+			
 		}
 	   
 		else
