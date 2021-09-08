@@ -133,8 +133,15 @@ store.map((stores)=>{
   	var p=0;
 
   	data1.carton.map((price)=>{
-
-  			return p+=price.price1;
+		if(price.total===1)
+		{
+		p+=price.price
+		}
+	   
+		else
+		{
+		p+=price.price1
+		}
   	})
 
 	return(
