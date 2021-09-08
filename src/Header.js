@@ -135,12 +135,12 @@ store.map((stores)=>{
   	data1.carton.map((price)=>{
 		if(price.total===1)
 		{
-		p+=price.price
+			p+=price.price;
 		}
 	   
 		else
 		{
-		p+=price.price1
+			p+=price.price1;
 		}
   	})
 

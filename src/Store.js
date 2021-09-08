@@ -11,7 +11,7 @@ export const store=[
           "count":120
        },
        "btn":false,
-       "total":0,
+       "total":1,
        "price1":0
     },
     {
@@ -26,7 +26,7 @@ export const store=[
           "count":"259"
        },
         "btn":false,
-       "total":0,
+       "total":1,
        "price1":0
     },
     {
@@ -41,7 +41,7 @@ export const store=[
           "count":500
        },
         "btn":false,
-       "total":0,
+       "total":1,
        "price1":0
     },
     {
@@ -56,7 +56,7 @@ export const store=[
           "count":430
        },
        "btn":false,
-       "total":0,
+       "total":1,
        "price1":0
     },
     {
@@ -71,7 +71,7 @@ export const store=[
           "count":400
        },
        "btn":false,
-       "total":0,
+       "total":1,
        "price1":0
     },
     {
@@ -86,7 +86,7 @@ export const store=[
           "count":70
        },
        "btn":false,
-       "total":0,
+       "total":1,
        "price1":0
     },
     {
@@ -101,7 +101,7 @@ export const store=[
           "count":400
        },
        "btn":false,
-       "total":0,
+       "total":1,
        "price1":0
     },
     {
@@ -116,7 +116,7 @@ export const store=[
           "count":100
        },
        "btn":false,
-       "total":0,
+       "total":1,
        "price1":0
     },
     {
@@ -131,7 +131,7 @@ export const store=[
           "count":203
        },
        "btn":false,
-       "total":0,
+       "total":1,
        "price1":0
     },
     {
@@ -146,7 +146,7 @@ export const store=[
           "count":470
        },
        "btn":false,
-       "total":0,
+       "total":1,
        "price1":0
     },
     {
@@ -161,7 +161,7 @@ export const store=[
           "count":319
        },
        "btn":false,
-       "total":0,
+       "total":1,
        "price1":0
     },
     {
@@ -176,7 +176,7 @@ export const store=[
           "count":400
        },
        "btn":false,
-       "total":0,
+       "total":1,
        "price1":0
     },
     {
@@ -191,7 +191,7 @@ export const store=[
           "count":250
        },
        "btn":false,
-       "total":0,
+       "total":1,
        "price1":0
     },
     {
@@ -206,7 +206,7 @@ export const store=[
           "count":140
        },
        "btn":false,
-       "total":0,
+       "total":1,
        "price1":0
     },
     {
@@ -221,7 +221,7 @@ export const store=[
           "count":235
        },
        "btn":false,
-       "total":0,
+       "total":1,
        "price1":0
     },
     {
@@ -236,7 +236,7 @@ export const store=[
           "count":340
        },
        "btn":false,
-       "total":0,
+       "total":1,
        "price1":0
     },
     {
@@ -251,7 +251,7 @@ export const store=[
           "count":679
        },
        "btn":false,
-       "total":0,
+       "total":1,
        "price1":0
     },
     {
@@ -266,7 +266,7 @@ export const store=[
           "count":130
        },
        "btn":false,
-       "total":0,
+       "total":1,
        "price1":0
     },
     {
@@ -281,7 +281,7 @@ export const store=[
           "count":146
        },
        "btn":false,
-       "total":0,
+       "total":1,
        "price1":0
     },
     {
@@ -296,7 +296,7 @@ export const store=[
           "count":145
        },
        "btn":false,
-       "total":0,
+       "total":1,
        "price1":0
     }
  ]
